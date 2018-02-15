@@ -36,6 +36,6 @@ export class HomePage {
 
 
   openNutricionista(){
-  	this.launchExternalApp('fb://', 'com.facebook.katana', 'fb://profile/', 'https://www.facebook.com/', username);
+  	this.launchExternalApp('fb://', 'com.facebook.katana', 'fb://profile/', 'https://www.facebook.com/', '');
   }
 }
