@@ -11,7 +11,10 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
 
   constructor(
-  	public navCtrl: NavController) {
+  	public navCtrl: NavController,
+  	public Device: Device,
+  	public InAppBrowser: InAppBrowser,
+  	public AppAvailability: AppAvailability) {
 
   }
 
