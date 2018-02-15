@@ -15,15 +15,5 @@ export class HomePage {
   }
 
   openNutricionista(){
-    // Default handlers
-	let successCallback = function(data) {
-		alert("Success!");
-		// if calling canLaunch() with getAppList:true, data will contain an array named "appList" with the package names of applications that can handle the uri specified.
-	};
-	let errorCallback = function(errMsg) {
-		alert("Error! " + errMsg);
-	}
-
-	window.plugins.launcher.canLaunch({packageName:'com.coe.bcp.nutricionista'}, successCallback, errorCallback);
   }
 }
