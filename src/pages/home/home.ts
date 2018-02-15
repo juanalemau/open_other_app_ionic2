@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { InAppBrowser, AppAvailability, Device } from 'ionic-native';
+import { Device } from '@ionic-native/device';
+import { AppAvailability } from '@ionic-native/app-availability';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { NavController } from 'ionic-angular';
 
 @Component({
