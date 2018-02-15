@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { LaunchNavigator, LaunchNavigatorOptions } from '@ionic-native/launch-navigator';
 
 @Component({
   selector: 'page-home',
@@ -9,8 +8,7 @@ import { LaunchNavigator, LaunchNavigatorOptions } from '@ionic-native/launch-na
 export class HomePage {
 
   constructor(
-  	public navCtrl: NavController,
-  	public launchNavigator: LaunchNavigator) {
+  	public navCtrl: NavController) {
 
   }
 
